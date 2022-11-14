@@ -32,6 +32,22 @@ public class Main {
         System.out.println();
         int [] arr2N = {4,6,9,3,0,11};
         System.out.print(arr2N[5]+", "+arr2N[4]+", "+arr2N[3]+", "+arr2N[2]+", "+arr2N[1]+", "+arr2N[0]);
+
+        System.out.println();
+        System.out.println("Задача 4");
+        int [] arr4=new int[3];
+        arr4[0]=1;
+        arr4[1]=2;
+        arr4[2]=3;
+        for (int i = 0; i < arr4.length; i++) {
+            if(arr4[i]%2>0)
+            {arr4[i]+=1;
+                System.out.println(arr4[i]);}
+
+            
+        }
+
+
     }
 
 
