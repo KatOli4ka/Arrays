@@ -43,12 +43,8 @@ public class Main {
             if(arr4[i]%2>0)
             {arr4[i]+=1;
                 System.out.println(arr4[i]);}
-
-            
         }
 
-
     }
-
 
 }
