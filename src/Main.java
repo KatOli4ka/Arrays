@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Задача 1");
+        System.out.println("Задача 1+2");
 
          int [] arr=new int[3];
          arr[0]=1;
@@ -16,6 +16,8 @@ public class Main {
         System.out.println();
         int [] arr2 = {4,6,9,3,0,11};
         System.out.print(arr2[0]+", "+arr2[1]+", "+arr2[2]+", "+arr2[3]+", "+arr2[4]+", "+arr2[5]);
+
+        System.out.println();
     }
 
 
